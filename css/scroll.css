@@ -1,0 +1,38 @@
+/* scroll animation */
+.div-left {
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: 850ms;
+}
+.div-left-show{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.div-center{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 700ms;
+}
+.div-center-show{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.div-right{
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 700ms;
+}
+.div-right-show{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.grow{
+    scale: 0;
+    opacity: 0;
+    transition: 700ms ease-out;
+}
+.grow-big{
+    scale: 1;
+    opacity: 1;
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/scroll.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <title>Shop</title>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <div class="nav-area">
+        <nav class="navbar">
+            <div class="brand-logo">
+                <img src="images\Logo.png" alt="" class="brand">
+            </div>
+            <div class="nav-links">
+                <ul class="nav-link-cont">
+                    <li class="nav-link"><a href="index.html" class="n-link">Home</a></li>
+                    <li class="nav-link"><a href="classes.html" class="n-link">Classes</a></li>
+                    <li class="nav-link"><a href="" class="n-link">Shop</a></li>
+                </ul>
+            </div>
+            <div class="menu-btn">
+                <div class="cart" onclick="cartanimate()">
+                    <iconify-icon icon="akar-icons:shopping-bag" class="cart-icon" width="80px"></iconify-icon>
+                </div>
+                <div class="menu" onclick="navbaranimate()">
+                    <img src="images\charm_menu-hamburger.png" alt="" width="96px">
+                </div>
+            </div>
+
+        </nav>
+    </div>
+    <!-- sidebar  -->
+    <div class="black-overlay" onclick="navbaranimate()">
+    </div>
+    <div class="black-overlay-2" onclick="cartanimate()">
+    </div>
+    <div class="sidebar">
+        <div class="close-menu" onclick="navbaranimate()">
+            <img src="images\ep_close-bold.png" alt="" width="96px">
+        </div>
+        <div class="side-links">
+            <ul class="side-link-cont">
+                <hr class="link-divder">
+                <li class="side-link"><a href="index.html" class="s-link">Home</a></li>
+                <hr class="link-divder">
+                <li class="side-link"><a href="classes.html" class="s-link">Classes</a></li>
+                <hr class="link-divder">
+                <li class="side-link"><a href="" class="s-link">Shop</a></li>
+                <hr class="link-divder">
+            </ul>
+        </div>
+    </div>
+    <div class="cart-bag" onblur="cartanimate()">
+        <h2 class="cart-h">Add items to see in cart</h2>
+        <hr class="cart-line">
+    </div>
+    <!-- hero section  -->
+    <div class="hero grow">
+        <h1 class="hero-h grow">Our Shop</h1>
+        <p class="hero-p grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus vehicula <br> ut neque
+            leo, posuere purus arcu.</p>
+    </div>
+    <!-- Products  -->
+    <h1 class="pH grow">Our Products</h1>
+    <div class="products">
+        <div class="product div-left" id="0" onmouseover="hovereffect(this.id)" onmouseleave="hoverEffect(this.id)">
+            <div class="img-container">
+                <img src="images\shoes.jpg" alt="" class="product-img">
+            </div>
+            <h2 class="product-h">Shoes</h2>
+            <hr class="product-line">
+            <p class="product-p">Enim eu turpis egestas pretium aenean <br> pharetra magna ac placerat.</p>
+            <p class="price-tag">$35.89</p>
+            <button class="product-btn">Buy Now</button>
+        </div>
+        <div class="product div-center" id="1" onmouseover="hovereffect(this.id)" onmouseleave="hoverEffect(this.id)">
+            <div class="img-container">
+                <img src="images\25Lbs dumbells.jpeg" alt="" class="product-img">
+            </div>
+            <h2 class="product-h">25Lbs Dumbells</h2>
+            <hr class="product-line">
+            <p class="product-p">Enim eu turpis egestas pretium aenean <br> pharetra magna ac placerat.</p>
+            <p class="price-tag">$35.89</p>
+            <button class="product-btn">Buy Now</button>
+        </div>
+        <div class="product div-right" id="2" onmouseover="hovereffect(this.id)" onmouseleave="hoverEffect(this.id)">
+            <div class="img-container">
+                <img src="images\Skipping rope.jpg" alt="" class="product-img">
+            </div>
+            <h2 class="product-h">Skipping Rope</h2>
+            <hr class="product-line">
+            <p class="product-p">Enim eu turpis egestas pretium aenean <br> pharetra magna ac placerat.</p>
+            <p class="price-tag">$35.89</p>
+            <button class="product-btn">Buy Now</button>
+        </div>
+        <div class="product div-left" id="3" onmouseover="hovereffect(this.id)" onmouseleave="hoverEffect(this.id)">
+            <div class="img-container">
+                <img src="images\15lbs dumbells.jpg" alt="" class="product-img">
+            </div>
+            <h2 class="product-h">15Lbs dumbells</h2>
+            <hr class="product-line">
+            <p class="product-p">Enim eu turpis egestas pretium aenean <br> pharetra magna ac placerat.</p>
+            <p class="price-tag">$35.89</p>
+            <button class="product-btn">Buy Now</button>
+        </div>
+        <div class="product div-center" id="4" onmouseover="hovereffect(this.id)" onmouseleave="hoverEffect(this.id)">
+            <div class="img-container">
+                <img src="images\abs roller.jpeg" alt="" class="product-img">
+            </div>
+            <h2 class="product-h">Abs Roller</h2>
+            <hr class="product-line">
+            <p class="product-p">Enim eu turpis egestas pretium aenean <br> pharetra magna ac placerat.</p>
+            <p class="price-tag">$35.89</p>
+            <button class="product-btn">Buy Now</button>
+        </div>
+        <div class="product div-right" id="5" onmouseover="hovereffect(this.id)" onmouseleave="hoverEffect(this.id)">
+            <div class="img-container">
+                <img src="images\kettle ball.jpg" alt="" class="product-img">
+            </div>
+            <h2 class="product-h">Kettle Ball</h2>
+            <hr class="product-line">
+            <p class="product-p">Enim eu turpis egestas pretium aenean <br> pharetra magna ac placerat.</p>
+            <p class="price-tag">$35.89</p>
+            <button class="product-btn">Buy Now</button>
+        </div>
+        <div class="product div-left" id="6" onmouseover="hovereffect(this.id)" onmouseleave="hoverEffect(this.id)">
+            <div class="img-container">
+                <img src="images\Yoga mat.jpg" alt="" class="product-img">
+            </div>
+            <h2 class="product-h">Yoga Mat</h2>
+            <hr class="product-line">
+            <p class="product-p">Enim eu turpis egestas pretium aenean <br> pharetra magna ac placerat.</p>
+            <p class="price-tag">$35.89</p>
+            <button class="product-btn">Buy Now</button>
+        </div>
+        <div class="product div-center" id="7" onmouseover="hovereffect(this.id)" onmouseleave="hoverEffect(this.id)">
+            <div class="img-container">
+                <img src="images\Hand grip.jpg" alt="" class="product-img">
+            </div>
+            <h2 class="product-h">Hand Grip</h2>
+            <hr class="product-line">
+            <p class="product-p">Enim eu turpis egestas pretium aenean <br> pharetra magna ac placerat.</p>
+            <p class="price-tag">$35.89</p>
+            <button class="product-btn">Buy Now</button>
+        </div>
+        <div class="product div-right" id="8" onmouseover="hovereffect(this.id)" onmouseleave="hoverEffect(this.id)">
+            <div class="img-container">
+                <img src="images\sports bottle.jpg" alt="" class="product-img">
+            </div>
+            <h2 class="product-h">Yoga Mat</h2>
+            <hr class="product-line">
+            <p class="product-p">Enim eu turpis egestas pretium aenean <br> pharetra magna ac placerat.</p>
+            <p class="price-tag">$35.89</p>
+            <button class="product-btn">Buy Now</button>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer-container">
+        <hr class="f-border">
+        <div class="footer">
+            <div class="footer-left">
+                <div class="f-left">
+                    <h2 class="fl-h">Pages</h2>
+                    <p class="fl-p">Home</p>
+                    <p class="fl-p">Classes</p>
+                    <p class="fl-p">Shop</p>
+                    <p class="fl-p">Contact</p>
+                </div>
+                <div class="f-right">
+                    <h2 class="fl-h">Other info</h2>
+                    <p class="fl-p">Pricing</p>
+                    <p class="fl-p">Trainers</p>
+                    <p class="fl-p">Products</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h2 class="fl-h">Subscribe to Urban Gym</h2>
+                <form action="" method="post">
+                    <input type="email" placeholder="Email Address" class="fr-form">
+                    <button type="submit" class="btn-1 formBtn">Subscribe</button>
+                </form>
+                <div class="social">
+                    <h2 class="fl-h social-h">Social-media</h2>
+                    <div>
+                        <iconify-icon icon="uim:facebook-f" width="52" height="52" class="social-icon"></iconify-icon>
+                        <iconify-icon icon="mdi:instagram" width="52" height="52" class="social-icon"></iconify-icon>
+                        <iconify-icon icon="mdi:linkedin" width="52" height="52" class="social-icon"></iconify-icon>
+                        <iconify-icon icon="mdi:twitter" width="52" height="52" class="social-icon"></iconify-icon>
+                        <iconify-icon icon="ic:round-email" width="52" height="52" class="social-icon"></iconify-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="rights">ALL RIGHTS RESERVED 2022 © Urban Gym™</h2>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</body>
+
+</html>
