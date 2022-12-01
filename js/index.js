@@ -99,7 +99,7 @@ const observer3 = new IntersectionObserver(entries =>{
         }
     })
 },{
-    threshold:0.3
+    threshold:0.1
 })
 
 divs3.forEach(div => {
