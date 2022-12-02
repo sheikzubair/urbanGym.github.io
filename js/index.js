@@ -67,9 +67,6 @@ const observer = new IntersectionObserver(entries => {
             observer.unobserve(entry.target)
         }
     })
-},
-{
-    threshold:0.2
 })
 
 divs.forEach(div => {
@@ -98,8 +95,6 @@ const observer3 = new IntersectionObserver(entries =>{
             observer3.unobserve(entry.target)
         }
     })
-},{
-    threshold:0.3
 })
 
 divs3.forEach(div => {
