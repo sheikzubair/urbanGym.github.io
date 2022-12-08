@@ -2,7 +2,7 @@
 .div-left {
     transform: translateX(-200px);
     opacity: 0;
-    transition: 850ms;
+    transition: 550ms;
 }
 .div-left-show{
     transform: translateX(0px);
@@ -12,7 +12,7 @@
 .div-center{
     transform: translateY(100px);
     opacity: 0;
-    transition: 700ms;
+    transition: 500ms;
 }
 .div-center-show{
     transform: translateY(0px);
@@ -21,7 +21,7 @@
 .div-right{
     transform: translateX(200px);
     opacity: 0;
-    transition: 700ms;
+    transition: 500ms;
 }
 .div-right-show{
     transform: translateX(0px);
@@ -30,7 +30,7 @@
 .grow{
     scale: 0;
     opacity: 0;
-    transition: 700ms ease-out;
+    transition: 500ms ease-out;
 }
 .grow-big{
     scale: 1;
