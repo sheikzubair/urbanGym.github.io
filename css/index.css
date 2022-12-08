@@ -365,6 +365,14 @@ body {
 }
 
 @media(max-width:1030px){
+    .btn-1:hover {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+    }
+    .product-btn:hover{
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
     .footer{
         flex-direction: column;
         align-items: center;
