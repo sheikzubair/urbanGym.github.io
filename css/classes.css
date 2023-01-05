@@ -171,6 +171,10 @@ body {
         height: 70vw;
         left: 15%;
     }
+    .product-btn:hover{
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+    }
 }
 @media(max-width:540px) {
     .brand {
