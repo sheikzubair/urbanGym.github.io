@@ -18,6 +18,9 @@ body {
 }
 
 /* button */
+.btn-h{
+    margin: 0px auto;
+}
 .btn-1 {
     padding: 5px 25px;
     gap: 10px;
