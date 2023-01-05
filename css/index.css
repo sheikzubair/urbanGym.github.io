@@ -382,6 +382,11 @@ body {
 @media(max-width:830px) {
 
     /* slider */
+    .btn-1:hover {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+    }
+    
     .owl-container {
         max-width: 450px;
         margin: 0% auto;
