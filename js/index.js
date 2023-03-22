@@ -1,10 +1,3 @@
-let sidebar = document.querySelector(".sidebar")
-let openMenu = document.querySelector(".menu")
-let closeMenu = document.querySelector(".close-menu")
-let blackOverlay = document.querySelector(".black-overlay")
-let blackOverlay2 = document.querySelector(".black-overlay-2")
-let cartmenu = document.querySelector(".cart")
-let cart = document.querySelector(".cart-bag")
 let classItem = document.querySelector(".class-info")
 let productImg = document.getElementsByClassName("product-img")
 let product = document.getElementsByClassName("product")
@@ -12,6 +5,8 @@ let classes = document.getElementsByClassName("class-item")
 
 
 function navbaranimate() {
+    let sidebar = document.querySelector(".sidebar")
+    let blackOverlay = document.querySelector(".black-overlay")
     if (sidebar.style.right === "-50vw") {
         sidebar.style.right = "0%"
         blackOverlay.style.display = "block"
@@ -24,6 +19,8 @@ function navbaranimate() {
 }
 
 function cartanimate() {
+    let blackOverlay2 = document.querySelector(".black-overlay-2")
+    let cart = document.querySelector(".cart-bag")
     if (cart.style.display === "none") {
         cart.style.display = "block"
         blackOverlay2.style.display = "block"
